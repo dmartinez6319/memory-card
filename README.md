@@ -1,1 +1,3 @@
-# memory-card
+# Memory Card
+
+Odin Project Series
