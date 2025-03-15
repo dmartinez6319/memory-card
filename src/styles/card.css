@@ -1,0 +1,13 @@
+.playing-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: max-content;
+    border-radius: .5rem;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.playing-card:hover {
+    backdrop-filter: blur(25px);
+
+}

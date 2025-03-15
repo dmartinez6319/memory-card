@@ -1,0 +1,14 @@
+.play-area {
+    width: 50%;
+  display: grid;
+  grid-template: repeat(6, 200px) / repeat(auto-fit, 200px);
+  grid-auto-rows: 200px;
+  gap: 1rem;
+}
+
+.playing-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
