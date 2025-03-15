@@ -1,7 +1,8 @@
 .play-area {
-    width: 50%;
+  position: relative;
+  width: 50%;
   display: grid;
-  grid-template: repeat(6, 200px) / repeat(auto-fit, 200px);
+  grid-template: repeat(6, 200px) / repeat(auto-fit, 170px);
   grid-auto-rows: 200px;
   gap: 1rem;
 }
@@ -11,4 +12,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.checkmark {
+  position: absolute;
+  font-size: 10rem;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2;
+  animation: fadeOut 200ms ease-out 500ms;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+
+  100% {
+    transform: translate(-50%, -60px);
+    opacity: 0;
+  }
 }

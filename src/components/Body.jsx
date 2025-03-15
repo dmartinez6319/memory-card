@@ -1,10 +1,15 @@
 import PlayArea from "./playarea";
-import "../styles/body.css"
+import "../styles/body.css";
 
-const Body = () => {
+const Body = ({score,highScore,setScore,setHighScore}) => {
   return (
     <main>
-      <PlayArea />
+      <PlayArea
+        score={score}
+        highScore={highScore}
+        setScore={setScore}
+        setHighScore={setHighScore}
+      />
     </main>
   );
 };
