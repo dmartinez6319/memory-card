@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../styles/card.css";
 
-const Card = ({ name, playedCards, setPlayedCards, setScore, score }) => {
+const Card = ({ name, playedCards, setPlayedCards, setScore }) => {
   const [image, setImage] = useState();
 
   const getCardImage = async () => {
