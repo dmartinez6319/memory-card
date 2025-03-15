@@ -1,4 +1,4 @@
-import PlayArea from "./playarea";
+import PlayArea from "./PlayArea.jsx";
 import "../styles/body.css";
 
 const Body = ({score,highScore,setScore,setHighScore}) => {

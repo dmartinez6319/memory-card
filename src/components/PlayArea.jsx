@@ -1,4 +1,4 @@
-import Card from "./card";
+import Card from "./Card.jsx";
 import cardNames from "../data.js";
 import "../styles/play_area.css";
 import { useEffect, useState } from "react";
